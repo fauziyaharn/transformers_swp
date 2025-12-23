@@ -1,22 +1,23 @@
-# Menjalankan Backend (transformers/app.py)
+# Menjalankan Backend (transformers_swp/app.py)
 
 Panduan singkat untuk menjalankan backend Flask lokal dan menguji endpoint `/api/process`.
 
 Persyaratan:
 - Python (direkomendasikan 3.10+)
-- Dependensi: lihat `transformers/requirements.txt`
+- Dependensi: lihat `transformers_swp/requirements.txt`
 
 Langkah cepat (PowerShell):
 
 ```powershell
+
 # Install dependensi
-python -m pip install -r transformers/requirements.txt
+python -m pip install -r transformers_swp/requirements.txt
 
 # (opsional) install flask-cors jika belum terpasang
 python -m pip install flask-cors
 
 # Jalankan server (di terminal baru):
-cd D:\Nurul\Prokon\transformers
+cd D:\Nurul\Prokon\transformers_swp
 python app.py
 
 # Cek endpoint (PowerShell):
